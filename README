@@ -1,3 +1,10 @@
 https://zee2.github.io/2020/01/18/licheepi-zero/
 
+u-boot : $ sudo dd if=u-boot-sunxi-with-spl.bin of=${card} bs=1024 seek=8
+
+kernel:
+setenv bootargs console=ttyS0,115200 root=/dev/mmcblk0p2 rootwait panic=10
+load mmc 0:1 0x43000000 ${fdtfile}
+load mmc 0:1 0x42000000 zImage
+bootz 0x42000000 - 0x43000000
 
