@@ -1,5 +1,4 @@
 
-![](img/wu_licheepizero_block.jpg?raw=true)
 
 u-boot : $ sudo dd if=u-boot-sunxi-with-spl.bin of=${card} bs=1024 seek=8
 
