@@ -1,4 +1,6 @@
-https://zee2.github.io/2020/01/18/licheepi-zero/
+
+
+![https://zee2.github.io/2020/01/18/licheepi-zero/](img/wu_licheepizero_block.jpg) 
 
 u-boot : $ sudo dd if=u-boot-sunxi-with-spl.bin of=${card} bs=1024 seek=8
 
