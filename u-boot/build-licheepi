@@ -1,0 +1,5 @@
+#!/bin/bash
+rm *.tar
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- distclean 
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- licheepi_zero_defconfig
+
